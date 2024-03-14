@@ -67,7 +67,7 @@ class RequestQueryParams(RequestRequiredQueryParams, RequestOptionalQueryParams)
 request_query_language = api_client.QueryParameter(
     name="language",
     style=api_client.ParameterStyle.FORM,
-    schema=Language,
+    schema=LanguageSchema,
     explode=True,
 )
 _auth = [

@@ -843,7 +843,7 @@ request_query_keyword_safe_search = api_client.QueryParameter(
 request_query_language = api_client.QueryParameter(
     name="language",
     style=api_client.ParameterStyle.FORM,
-    schema=Language,
+    schema=LanguageSchema,
     explode=True,
 )
 request_query_license = api_client.QueryParameter(
